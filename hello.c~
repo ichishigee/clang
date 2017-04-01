@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+  int ch;
+  ch = getchar();
+  putchar(ch);
+  putchar('A');
+  putchar(66);
+  putchar('\n');
+  return 0;
+}
+
+
+
