@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+  double num;
+  printf("入力\n");
+  
+  scanf("%lf", &num);
+
+  printf("%fが入力\n", num);
+
+  return 0;
+}

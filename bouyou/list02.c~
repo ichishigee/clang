@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int i;
+  int k;
+  printf("%p",&i);
+  printf("%p",&k);
+  return 0;
+}

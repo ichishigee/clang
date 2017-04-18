@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int sqr(int x){
+  return x*x;
+}
+
+int diff(int x, int y){
+  return (x > y) ? x-y : y-x;
+}
+
+int main(void){
+  int x = 100;
+  int y = 1;
+  printf("%d", diff(sqr(x)-diff(y)));
+
+  return 0;
+}

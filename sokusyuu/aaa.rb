@@ -1,0 +1,1 @@
+puts "aaaBB".upcase.downcase

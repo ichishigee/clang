@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int num;
+  double d;
+  char ch;
+  
+
+  printf("ensyuuritu\n");
+  scanf("%lf", &d);
+  printf("ensyuuritu%f\n", d);
+  ch=getchar();
+  
+  
+
+  printf("arufa\n");
+
+
+  printf("%c\n", ch);
+
+  return 0;
+}

@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+typedef struct Person{
+  int age;
+  double weight;
+  double height;
+} Person;
+
+
+
+int main(void){
+  int i;
+  Person p[2];
+
+  p[0].age = 1; p[0].weihgt = 80.0; p[0].height = 124.9;
+  p[1].age = 6; p[1].weihgt = 55.0; p[1].height = 233.9;
+
+
+  for(i=0; i<2;i++){
+    printf("%d  %f  %f\n", p[i].age, p[i].weight, p[i].height);
+  }
+  return 0;
+}
+
+
